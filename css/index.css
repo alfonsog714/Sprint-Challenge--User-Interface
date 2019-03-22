@@ -137,7 +137,7 @@ table {
 html,
 body {
   height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", "Roboto", sans-serif;
 }
 
 h1,
@@ -147,7 +147,7 @@ h4,
 h5 {
   font-size: 18px;
   margin-bottom: 15px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", "Rubik", sans-serif;
 }
 
 p {
@@ -291,4 +291,36 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* About Page */
+
+.text-container.about-page {
+  width: 100%;
+}
+
+.boxes.about-page {
+  justify-content: space-between;
+}
+
+.info-box {
+  width: 48%;
+  margin-bottom: 40px;
+  border-bottom: gray dashed 1px;
+  /* border: red 1px solid; */
+}
+
+.info-box img {
+}
+
+.info-box button {
+  margin: 20px 0;
+  background: none;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.middle-content.about-page {
+  border: none;
 }
