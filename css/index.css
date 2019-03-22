@@ -318,7 +318,8 @@ footer nav a {
   /* border: red 1px solid; */
 }
 
-.info-box img {
+.info-box h2 {
+  margin: 15px 0;
 }
 
 .info-box button {
@@ -326,7 +327,7 @@ footer nav a {
   background: none;
   border: 2px solid black;
   border-radius: 8px;
-  padding: 10px 15px;
+  padding: 7px 25px;
 }
 
 .middle-content.about-page {
