@@ -159,7 +159,8 @@ p {
   margin: 0 auto;
 }
 
-/* Header & Navigation */
+/* Header & Navigation 
+-----------------------*/
 header > img {
   margin-bottom: 30px;
 }
@@ -175,6 +176,13 @@ header > img {
 .navigation a {
   text-decoration: none;
   color: black;
+}
+
+.current {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: blue !important;
 }
 
 .top-content {
@@ -305,7 +313,7 @@ footer nav a {
 
 .info-box {
   width: 48%;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   border-bottom: gray dashed 1px;
   /* border: red 1px solid; */
 }
@@ -323,4 +331,8 @@ footer nav a {
 
 .middle-content.about-page {
   border: none;
+}
+
+.bottom-content.about-page {
+  margin-bottom: 50px;
 }
